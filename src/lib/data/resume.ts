@@ -10,6 +10,7 @@ import LinkedinSvg from '$lib/imgs/linkedin.svg';
 import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
 
 import CapgeminiLogo from '$lib/imgs/capgemini.png';
+import HighradiusLogo from '$lib/imgs/Highradius.png';
 
 // Your resume data
 export let DATA = {
@@ -37,11 +38,13 @@ export let DATA = {
 		'Java',
 		'C++'
 	],
+
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
 		{ href: '/blog', icon: NotebookIcon, label: 'Blog' },
 		{ href: '#', icon: CodeIcon, label: 'Projects' }
 	],
+
 	contact: {
 		email: 'supradatripathy@gmail.com',
 		tel: '+123456789',
@@ -87,12 +90,12 @@ export let DATA = {
 				'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
 		},
 		{
-			company: 'Highradius',
+			company: 'Highradius Corporation',
 			badges: [],
-			href: 'https://shopify.com',
+			href: 'https://www.highradius.com/',
 			location: 'Bhubneswar, Odisha',
 			title: 'Product Intern',
-			logoUrl: CapgeminiLogo,
+			logoUrl: HighradiusLogo,
 			start: 'April 2022',
 			end: 'August 2023',
 			description:
@@ -110,11 +113,11 @@ export let DATA = {
 			end: '2024'
 		},
 		{
-			school: 'University of Waterloo',
-			href: 'https://uwaterloo.ca',
-			degree: "Bachelor's Degree of Computer Science (BCS)",
+			school: 'Kalahandi Univerity',
+			href: 'https://kalahandiuniversity.ac.in/',
+			degree: "Intermediate in Science (PCMB)",
 			logoUrl: CapgeminiLogo,
-			start: '2016',
+			start: '20',
 			end: '2021'
 		},
 		{
