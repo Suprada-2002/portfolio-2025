@@ -57,5 +57,26 @@
 			{/each}
 		</div>
 	</section>
+
+	<section id="education">
+		<div class="flex min-h-0 flex-col gap-y-3">
+			<BlurFade delay={BLUR_FADE_DELAY}>
+				<h2 class="text-xl font-bold">Education</h2>
+			</BlurFade>
+			{#each DATA.education as edu, id}
+				<BlurFade delay={BLUR_FADE_DELAY * 1.2 + id * 0.05}>
+					<ResumeCard
+						href={edu.href}
+						logoUrl={edu.logoUrl}
+						company={edu.school}
+						title={edu.school}
+						subtitle={edu.degree}
+						start={edu.start}
+						end={edu.end}
+					/>
+				</BlurFade>
+			{/each}
+		</div>
+	</section>
     
 </main>
