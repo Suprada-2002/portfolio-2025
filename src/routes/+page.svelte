@@ -2,6 +2,7 @@
     import BlurFade from "$lib/components/Design/BlurFade.svelte";
     import * as Avatar from "$lib/components/Helpers/Avatar";
     import ResumeCard from "$lib/components/Portfolio/ResumeCard.svelte";
+    import Badge from "$lib/components/Helpers/Badge/badge.svelte";
     import { DATA } from '$lib/data/resume';
     import { marked } from 'marked';
     let BLUR_FADE_DELAY = 0.04;
@@ -76,6 +77,21 @@
 					/>
 				</BlurFade>
 			{/each}
+		</div>
+	</section>
+
+    <section id="skills">
+		<div class="flex min-h-0 flex-col gap-y-3">
+			<BlurFade delay={BLUR_FADE_DELAY}>
+				<h2 class="text-xl font-bold">Skills</h2>
+			</BlurFade>
+			<div class="flex flex-wrap gap-1">
+				{#each DATA.skills as skill, id}
+					<BlurFade delay={BLUR_FADE_DELAY * id + 0.002}>
+						<Badge>{skill}</Badge>
+					</BlurFade>
+				{/each}
+			</div>
 		</div>
 	</section>
     
