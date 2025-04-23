@@ -1,6 +1,7 @@
 <script>
     import BlurFade from "$lib/components/Design/BlurFade.svelte";
     import * as Avatar from "$lib/components/Helpers/Avatar";
+    import ResumeCard from "$lib/components/Portfolio/ResumeCard.svelte";
     import { DATA } from '$lib/data/resume';
     import { marked } from 'marked';
     let BLUR_FADE_DELAY = 0.04;
@@ -42,6 +43,19 @@
 					{@html marked(DATA.summary)}
 				</div>
 			</BlurFade>
+	</section>
+
+    <section id="work">
+		<div class="flex min-h-0 flex-col gap-y-3">
+			<BlurFade delay={BLUR_FADE_DELAY}>
+				<h2 class="text-xl font-bold">Work Experience</h2>
+			</BlurFade>
+			{#each DATA.work as work, id}
+				<BlurFade delay={BLUR_FADE_DELAY * 1.2 + id * 0.05}>
+					<ResumeCard {...work} />
+				</BlurFade>
+			{/each}
+		</div>
 	</section>
     
 </main>
