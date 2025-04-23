@@ -16,14 +16,14 @@ export let DATA = {
 	name: 'Suprada Tripathy',
 	initials: 'ST',
 	url: 'https://github.com/Suprada-2002',
-	img: './profile.jpg',
+	img: 'https://drive.google.com/file/d/1v9FzQqg0SlhhDQOvOgQSSeUl9KXzahPe/view',
 	location: 'Pune, India',
 	locationLink: 'https://www.google.com/maps/place/pune',
 	description:
 		'Full Stack Web Developer. I love building things and helping people. Here and there Linux Enthusiast.',
 	summary:
 		'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
-	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
+	avatarUrl: 'https://drive.google.com/file/d/1v9FzQqg0SlhhDQOvOgQSSeUl9KXzahPe/view',
 	skills: [
 		'Svelte',
 		'Sveltekit',
