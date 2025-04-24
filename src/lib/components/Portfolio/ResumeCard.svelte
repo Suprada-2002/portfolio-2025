@@ -14,6 +14,7 @@
 	export let description: string = '';
 	export let start: string = '';
 	export let end: string = '';
+	export let location : string = '';
 	let isExpanded = false;
 
 	let handleClick = (e: MouseEvent) => {
@@ -39,7 +40,7 @@
 						class="inline-flex items-center justify-center text-xs font-semibold leading-none sm:text-sm"
 					>
 						{company}
-						{#if badges?.length > 0 && badges[0] !== ''}
+						<!-- {#if badges?.length > 0 && badges[0] !== ''}
 							<span class="inline-flex gap-x-1">
 								{#each badges as badge, index}
 									<Badge variant="secondary" class="align-middle text-xs" key={index}>
@@ -47,7 +48,7 @@
 									</Badge>
 								{/each}
 							</span>
-						{/if}
+						{/if} -->
 						<ChevronRightIcon
 							class={cn(
 								'size-4 translate-x-0 transform opacity-0 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:opacity-100',
@@ -62,7 +63,9 @@
 				{#if title}
 					<div class="font-sans text-xs">{title}</div>
 				{/if}
+
 			</div>
+
 			{#if description}
 				{#if isExpanded}
 					<div
@@ -72,10 +75,25 @@
 							easing: quartOut
 						}}
 					>
-						{description}
+						{description} 
+						<p>Location: {location}</p>
 					</div>
 				{/if}
 			{/if}
+<!-- 
+			<div class="mt-3 w-5">
+				{#if badges?.length > 0 && badges[0] !== ''}
+				<div class="font-sans text-x p-[2]">skills:</div>
+					<span class="inline-flex gap-x-1.5">
+						{#each badges as badge, index}
+							<Badge variant="secondary" class="align-middle text-xs" key={index}>
+								{badge}
+							</Badge>
+						{/each}
+					</span>
+				{/if}
+			</div> -->
+
 		</div>
 	</div>
 </a>
