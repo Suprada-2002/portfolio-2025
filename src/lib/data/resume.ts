@@ -14,6 +14,7 @@ import HighradiusLogo from '$lib/imgs/Highradius.png';
 import KalahandiUniLogo from '$lib/imgs/KalahandiUniversity.jpeg';
 import GIETLogo from '$lib/imgs/GIET.png';
 import LagazonLogo from '$lib/imgs/Lagazon.jpeg';
+import ProfileLogo from '$lib/imgs/profile.jpg';
 
 // Your resume data
 export let DATA = {
@@ -29,7 +30,7 @@ export let DATA = {
 	// summary:
 	// 	'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
 	
-	avatarUrl: 'https://drive.google.com/file/d/1v9FzQqg0SlhhDQOvOgQSSeUl9KXzahPe/view',
+	avatarUrl: ProfileLogo,
 	skills: [
 		'Svelte',
 		'Sveltekit',
@@ -205,8 +206,8 @@ export let DATA = {
 					// icon: <Icons.github className="size-3" />,
 				}
 			],
-			image: '',
-			video: 'https://cdn.magicui.design/bento-grid.mp4'
+			image: 'https://drive.google.com/file/d/1-HeR2RqfmcbUU45bEAHWXrMLvw4W9xvG/view?usp=sharing',
+			video: 'https://drive.google.com/file/d/1-DKlL89xu0tUPLiDrIWzlHWCmKlamFbP/view?usp=drive_link'
 		},
 		{
 			title: 'Maze Generation',
