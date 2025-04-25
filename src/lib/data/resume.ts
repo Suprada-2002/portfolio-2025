@@ -15,6 +15,10 @@ import KalahandiUniLogo from '$lib/imgs/KalahandiUniversity.jpeg';
 import GIETLogo from '$lib/imgs/GIET.png';
 import LagazonLogo from '$lib/imgs/Lagazon.jpeg';
 import ProfileLogo from '$lib/imgs/profile.jpg';
+import SnakeAiImg from '$lib/imgs/SnakeAi.png';
+import EcommerceImg from '$lib/imgs/Ecommerce.png';
+import VisualizerImg from '$lib/imgs/Visualizer.png';
+import MazeGenImg from '$lib/imgs/MazeGen.png';
 
 // Your resume data
 export let DATA = {
@@ -65,7 +69,7 @@ export let DATA = {
 			},
 			LinkedIn: {
 				name: 'LinkedIn',
-				url: 'https://www.linkedin.com/in/supradatripathy/',
+				url: 'https://www.linkedin.com/in/suprada-tripathy-2981a1201/',
 				icon: LinkedinSvg,
 				navbar: true,
 				dark_icon: LinkedinDarkSvg
@@ -146,7 +150,7 @@ export let DATA = {
 	projects: [
 		{
 			title: 'Visualizer',
-			href: 'https://chatcollect.com',
+			href: 'https://www.google.com',
 			dates: 'Jan 2024 - Feb 2024',
 			active: true,
 			description:
@@ -162,19 +166,19 @@ export let DATA = {
 			links: [
 				{
 					type: 'Website',
-					href: 'https://chatcollect.com',
+					href: 'https://www.google.com',
 					// icon: <Icons.globe className="size-3" />,
 					icon: Globe
 				},
 				{
 					type: 'Source',
-					href: 'https://chatcollect.com',
+					href: 'https://github.com/Suprada-2002/visualizer',
 					// icon: <Icons.globe className="size-3" />,
 					icon: Github
 				}
 			],
-			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4'
+			image: VisualizerImg,
+			video: ''
 		},
 		{
 			title: 'Snake AI',
@@ -206,8 +210,8 @@ export let DATA = {
 					// icon: <Icons.github className="size-3" />,
 				}
 			],
-			image: 'https://drive.google.com/file/d/1-HeR2RqfmcbUU45bEAHWXrMLvw4W9xvG/view?usp=sharing',
-			video: 'https://drive.google.com/file/d/1-DKlL89xu0tUPLiDrIWzlHWCmKlamFbP/view?usp=drive_link'
+			image: SnakeAiImg,
+			video: ''
 		},
 		{
 			title: 'Maze Generation',
@@ -238,12 +242,12 @@ export let DATA = {
 					// icon: <Icons.github className="size-3" />,
 				}
 			],
-			image: '',
-			video: 'https://cdn.llm.report/openai-demo.mp4'
+			image: MazeGenImg,
+			video: ''
 		},
 		{
 			title: 'Ecommerce Website',
-			href: 'https://automatic.chat',
+			href: 'https://www.google.com',
 			dates: 'April 2023 - March 2024',
 			active: true,
 			description:
@@ -260,19 +264,19 @@ export let DATA = {
 			links: [
 				{
 					type: 'Website',
-					href: 'https://automatic.chat',
+					href: 'https://www.google.com',
 					icon: Globe
 					// icon: <Icons.globe className="size-3" />,
 				},
 				{
 					type: 'Source',
-					href: 'https://github.com/Suprada-2002/Maze-Generation-using-DFS',
+					href: 'https://www.google.com',
 					icon: Github
 					// icon: <Icons.github className="size-3" />,
 				}
 			],
-			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
+			image: EcommerceImg,
+			video: ''
 		}
 	],
 	workProfile: [
