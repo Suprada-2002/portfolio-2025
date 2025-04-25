@@ -294,36 +294,36 @@ export let DATA = {
 					title: 'Certificate',
 					icon: Award,
 					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://www.capgemini.com'
+					href: 'https://drive.google.com/file/d/1NtIG8CLuMYHIto-zU8u-L6qlt-BmWVvm/view?usp=sharing'
 				},
 			]
 		},
 		{
 			title: 'Highradius Corporation',
-			dates: 'June 2022 - June 2023',
+			dates: 'June 2022 - April 2023',
 			location: 'Bhubneswar, Odisha',
 			description:
 				'Gained expertise in Full Stack Web Development. Worked with product team, learned and applied Agile Methodology.',
 			image: HighradiusLogo,
-			tags: ['React.js', 'Java', 'SpringBoot', 'Material UI', 'Tailwind CSS', 'JUnit','MySQL', 'MongoDB'],
+			tags: ['React.js', 'Java', 'SpringBoot', 'Material UI', 'Tailwind CSS', 'JUnit','MySQL', 'MongoDB','Agile'],
 			links: [
 				{
 					title: 'Website',
 					icon: Globe,
 					// icon: <Icons.globe className="h-4 w-4" />,
-					href: 'https://devpost.com/software/my6footprint'
+					href: 'https://www.highradius.com/'
 				},
 				{
 					title: 'Certificate',
 					icon: Award,
 					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/Wallet6/my6footprint-machine-learning'
+					href: 'https://drive.google.com/file/d/1-SN7iHuVJDDhMfuBfluQIjCjAO1f0m_e/view?usp=sharing'
 				},
 			]
 		},
 		{
 			title: 'Lagazon Edutech',
-			dates: 'June 2022 - June 2023',
+			dates: 'May 2021 - July 2021',
 			location: 'Remote', 
 			description:
 				'Completed a 2 months Internship and gained insightful knowledge in Power BI. Learned concepts like Data visualization and Modeling',
@@ -334,13 +334,13 @@ export let DATA = {
 					title: 'Website',
 					icon: Globe,
 					// icon: <Icons.globe className="h-4 w-4" />,
-					href: 'https://devpost.com/software/my6footprint'
+					href: 'https://www.lagozonedutech.com/'
 				},
 				{
 					title: 'Certificate',
 					icon: Award,
 					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/Wallet6/my6footprint-machine-learning'
+					href: 'https://drive.google.com/file/d/1xRHsJZHfzGN72FeLSk1r7Zrmzj_gnnsN/view'
 				},
 			]
 		},
