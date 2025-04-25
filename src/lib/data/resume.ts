@@ -10,6 +10,10 @@ import LinkedinSvg from '$lib/imgs/linkedin.svg';
 import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
 
 import CapgeminiLogo from '$lib/imgs/capgemini.png';
+import HighradiusLogo from '$lib/imgs/Highradius.png';
+import KalahandiUniLogo from '$lib/imgs/KalahandiUniversity.jpeg';
+import GIETLogo from '$lib/imgs/GIET.png';
+import LagazonLogo from '$lib/imgs/Lagazon.jpeg';
 
 // Your resume data
 export let DATA = {
@@ -82,7 +86,7 @@ export let DATA = {
 			badges: [],
 			location: 'Gunupur, Odisha, India',
 			title: 'Gandhi Institute of Engineering and technology.',
-			logoUrl: CapgeminiLogo,
+			logoUrl: GIETLogo,
 			start: '2019',
 			end: '2023',
 			description:
@@ -95,7 +99,7 @@ export let DATA = {
 			href: 'https://www.highradius.com/',
 			location: 'Kalahandi, Odisha, India',
 			title: 'Kalahandi Univerity',
-			logoUrl: CapgeminiLogo,
+			logoUrl: KalahandiUniLogo,
 			start: '2017',
 			end: '2019',
 			description:
@@ -300,7 +304,7 @@ export let DATA = {
 			location: 'Bhubneswar, Odisha',
 			description:
 				'Gained expertise in Full Stack Web Development. Worked with product team, learned and applied Agile Methodology.',
-			image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png',
+			image: HighradiusLogo,
 			tags: ['React.js', 'Java', 'SpringBoot', 'Material UI', 'Tailwind CSS', 'JUnit','MySQL', 'MongoDB'],
 			links: [
 				{
@@ -320,10 +324,10 @@ export let DATA = {
 		{
 			title: 'Lagazon Edutech',
 			dates: 'June 2022 - June 2023',
-			location: 'Remote',
+			location: 'Remote', 
 			description:
 				'Completed a 2 months Internship and gained insightful knowledge in Power BI. Learned concepts like Data visualization and Modeling',
-			image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png',
+			image: LagazonLogo,
 			tags: ['Power BI', 'Data Visualization', 'Data Modeling', 'ETL Process', 'Tailwind CSS', 'DAX','MySQL', 'Data Cleaning & Warehousing'],
 			links: [
 				{
