@@ -150,7 +150,7 @@ export let DATA = {
 	projects: [
 		{
 			title: 'Visualizer',
-			href: 'https://www.google.com',
+			href: 'https://visualizer-ruby.vercel.app/',
 			dates: 'Jan 2024 - Feb 2024',
 			active: true,
 			description:
@@ -166,7 +166,7 @@ export let DATA = {
 			links: [
 				{
 					type: 'Website',
-					href: 'https://www.google.com',
+					href: 'https://visualizer-ruby.vercel.app/',
 					// icon: <Icons.globe className="size-3" />,
 					icon: Globe
 				},
