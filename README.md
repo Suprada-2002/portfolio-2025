@@ -22,7 +22,7 @@ npm install or yarn install
 ```bash 
 npm run dev or yarn run dev
 ```
-5. Open the resume.ts file in ```src/lib/data``` folder and change it accoridng to your wish.
+5. Open the resume.ts file in ```src/lib/data``` folder and change it according to your wish.
 
-> If you life the project, leave a ⭐️
+> If you like the project, leave a ⭐️
 
