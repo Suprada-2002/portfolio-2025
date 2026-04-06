@@ -19,6 +19,7 @@ import SnakeAiImg from '$lib/imgs/SnakeAi.png';
 import EcommerceImg from '$lib/imgs/Ecommerce.png';
 import VisualizerImg from '$lib/imgs/Visualizer.png';
 import MazeGenImg from '$lib/imgs/MazeGen.png';
+import MisikiTechLogo from '$lib/imgs/MisikiTechLogo.jpeg'
 
 // Your resume data
 export let DATA = {
@@ -280,12 +281,37 @@ export let DATA = {
 		}
 	],
 	workProfile: [
-		{
-			title: 'Capgemini',
-			dates: 'December 2023 - current',
+				{
+			title: 'Misiki Technologies',
+			dates: 'March 2026 - current',
+			designation:'Sr. Fullstack Developer',
 			location: 'Pune, Maharastra',
 			description:
 				'Working as Full Stack developer. Collborated with multiple teams and learned to be a team player and enhanced my communication skills.',
+			image: MisikiTechLogo,
+			tags: ['React.js','Bun.js','Docker','Tailwind CSS', 'Express.js','MySQL', 'PostgresSQL'],
+			links: [
+				{
+					title: 'Website',
+					icon: Globe,
+					// icon: <Icons.github className="h-4 w-4" />,
+					href: 'https://www.capgemini.com'
+				},
+				{
+					title: 'Certificate',
+					icon: Award,
+					// icon: <Icons.github className="h-4 w-4" />,
+					href: 'https://drive.google.com/file/d/1NtIG8CLuMYHIto-zU8u-L6qlt-BmWVvm/view?usp=sharing'
+				},
+			]
+		},
+		{
+			title: 'Capgemini',
+			dates: 'December 2023 - February 2026',
+			designation:'Sr. Software Engineer/Sr. Analyst',
+			location: 'Pune, Maharastra',
+			description:
+				'Worked as Full Stack developer. Collborated with multiple teams and learned to be a team player and enhanced my communication skills.',
 			image: CapgeminiLogo,
 			tags: ['Java', 'SpringBoot', 'MVC','React.js', 'Azure','Tailwind CSS', 'Selenium Automation','MySQL', 'PostgresSQL'],
 			links: [
@@ -306,6 +332,7 @@ export let DATA = {
 		{
 			title: 'Highradius Corporation',
 			dates: 'June 2022 - April 2023',
+			designation:'Product Intern',
 			location: 'Bhubneswar, Odisha',
 			description:
 				'Gained expertise in Full Stack Web Development. Worked with product team, learned and applied Agile Methodology.',

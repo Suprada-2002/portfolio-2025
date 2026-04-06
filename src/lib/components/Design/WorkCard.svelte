@@ -7,6 +7,7 @@
 	export let dates: string;
 	export let location: string;
 	export let image: string = '';
+    export let designation: string ;
 	export let links: readonly {
 		icon?: any;
 		title: string;
@@ -52,7 +53,9 @@
             </h2>
         </div>
 		 -->
-        
+ 		{#if designation}
+			<p class="text-sm text-muted-foreground italic">{designation}</p>
+		{/if}       
 		{#if location}
 			<p class="text-sm text-muted-foreground">{location}</p>
 		{/if}
