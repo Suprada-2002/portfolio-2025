@@ -47,7 +47,9 @@ export let DATA = {
 		'Docker',
 		'Kubernetes',
 		'Java',
-		'C++'
+		'C++',,
+		'bun.js',
+		'Sveltekit'
 	],
 
 	navbar: [
