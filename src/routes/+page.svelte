@@ -171,10 +171,13 @@
 					<p
 						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 					>
-						Want to connect? Just shoot me a dm or
-						<a href="https://guestbook-eta.vercel.app/" class="text-blue-500 hover:underline">
-							sign my guestboook
+						Want to connect?
+							<a href="mailto:supradatripathy789@gmail.com" class="text-blue-500 hover:underline">
+							Shoot a mail.
 						</a>
+						<!-- <a href="https://guestbook-eta.vercel.app/" class="text-blue-500 hover:underline">
+							sign my guestboook
+						</a> -->
 						and I&apos;ll respond as soon as I can.
 					</p>
 				</div>
